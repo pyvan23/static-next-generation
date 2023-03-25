@@ -2,12 +2,14 @@ import { Button } from "@nextui-org/react";
 import { NextPage } from "next"
 
 
- const HomePage: NextPage = ()=> {
+const HomePage: NextPage = () => {
   return (
     <>
-     <Button color={'gradient'}>
-      Next
-     </Button>
+    <div style={{display:'flex',justifyContent:'center'}}>
+      <Button color={'gradient'}>
+        Next
+      </Button>
+    </div>
     </>
   )
 }
