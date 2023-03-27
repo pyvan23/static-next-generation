@@ -1,3 +1,4 @@
+import { Layout } from "../components/layout/Layout";
 import { Button } from "@nextui-org/react";
 import { NextPage } from "next"
 
@@ -5,11 +6,14 @@ import { NextPage } from "next"
 const HomePage: NextPage = () => {
   return (
     <>
-    <div style={{display:'flex',justifyContent:'center'}}>
+    <Layout>
+   
       <Button color={'gradient'}>
         Next
       </Button>
-    </div>
+    
+    </Layout>
+    
     </>
   )
 }
