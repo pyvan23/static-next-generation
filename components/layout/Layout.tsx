@@ -14,7 +14,7 @@ export const Layout:FC<Props> = ({children,title}) => {
     <>
     
         <Head>
-            <title></title>
+            <title>{title}</title>
           <meta name="author" content="Ivan, width=device-width" />
           <meta name="description" content="info..." />
           <meta name="keywords" content="info..." />

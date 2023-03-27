@@ -6,14 +6,14 @@ import { NextPage } from "next"
 const HomePage: NextPage = () => {
   return (
     <>
-    <Layout>
-   
-      <Button color={'gradient'}>
-        Next
-      </Button>
-    
-    </Layout>
-    
+      <Layout title="Listado">
+
+        <Button color={'gradient'}>
+          Next
+        </Button>
+
+      </Layout>
+
     </>
   )
 }
