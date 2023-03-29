@@ -10,6 +10,13 @@ results: SmallPokemon[];
 export interface SmallPokemon{
 name: string;
 url:string;
-img: string;
+
+}
+
+export interface pokemon{
+id:string;
+name:string;
+pic:string;
+
 
 }
